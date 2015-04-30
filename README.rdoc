@@ -1,0 +1,19 @@
+= PgRealtime
+
+This is a very simple Node application for consuming realtime updates from Postgres database and displaying them in a console
+(inspired on http://bjorngylling.com/2011-04-13/postgres-listen-notify-with-node-js.html)
+== Setup
+
+  $ npm install
+
+== Postgres preparation
+    
+    Make sure you have 'pg_channel' on your pg_notify method (see for more details http://bjorngylling.com/2011-04-13/postgres-listen-notify-with-node-js.html)
+
+== Running
+
+  $ node index.js [user] [password] [database] 
+
+== Copyright
+
+Copyright (c) 2015 Piotr Brudny.
